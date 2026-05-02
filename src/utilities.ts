@@ -32,3 +32,13 @@ const product1 = {
   name: "Mouse",
   price: "20",
 };
+
+
+
+
+// type Partial<T>   // all optional
+// type Required<T>  // all required
+// type Readonly<T>  // immutable
+// type Pick<T, K>   // select keys
+// type Omit<T, K>   // remove keys
+// type Record<K,T>  // key-value map
